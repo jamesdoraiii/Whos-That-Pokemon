@@ -1,4 +1,4 @@
-const baseURL = "http://pokeapi.salestock.net/api/v2/pokemon/";
+const baseURL = "https://pokeapi.salestock.net/api/v2/pokemon/";
 
 //UI setup
 const playbutton = document.getElementById("play");
