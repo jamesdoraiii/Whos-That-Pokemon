@@ -1,4 +1,4 @@
-const baseURL = "https://pokeapi.salestock.net/api/v2/pokemon/";
+const baseURL = "http://pokeapi.salestock.net/api/v2/pokemon/";
 
 //UI setup
 const playbutton = document.getElementById("play");
@@ -20,13 +20,14 @@ difficulty3.addEventListener("click", setdifficulty3);
 let difficultySetting = "easy";
 
 //sound
+var cry = new Audio("cry.mp3");
 var snd = new Audio("poke-who.wav");
 //var opener = document.getElementById("opener");
-window.onload=function(){
-  document.getElementById("opener").load();
-  document.getElementById("opener").play();
-}
-var cry = new Audio("cry.mp3");
+//window.onload=function(){
+  //document.getElementById("opener").load();
+  //document.getElementById("opener").play();
+//}
+
 
 
 //image initial setting
